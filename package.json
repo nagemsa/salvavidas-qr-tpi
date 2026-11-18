@@ -1,0 +1,25 @@
+{
+  "name": "salvavidas-qr-tpi",
+  "version": "1.0.0",
+  "description": "Sistema Monolítico Modular (DDD + Clean Code) de Identificación Médica de Emergencia mediante QR para Conductores - Taller de Procesos Interdisciplinarios (TPI)",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings src/main.ts",
+    "dev": "node --watch --no-warnings src/main.ts",
+    "build": "node --no-warnings scripts/build-vercel.ts",
+    "test": "node --test --no-warnings tests/*.test.ts"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "tpi",
+    "ddd",
+    "clean-architecture",
+    "emergency-qr",
+    "paramedic",
+    "road-safety",
+    "monolith"
+  ],
+  "license": "MIT"
+}
